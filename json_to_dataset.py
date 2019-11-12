@@ -45,8 +45,8 @@ def main():
             if line == '':
                 continue
                 
-        label_name_to_value[line] = count
-        count += 1
+            label_name_to_value[line] = count
+            count += 1
         
     data = json.load(open(json_file))
     imageData = data.get('imageData')
